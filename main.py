@@ -2,7 +2,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-print("Enter some skills that you do not have experince in: ")
+print("Enter some skills that you do not have experience in: ")
 notApplicableSkills = input('>')
 print(f'Filtering out {notApplicableSkills}......')
 
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     while True:
         find_jobs()
         break
-        #commented out because it i do not require it at the moment.
+        #commented out because it was not required at the moment.
         # time_wait = 10
         # print(f"Waiting {time_wait} minutes...")
         # time.sleep(time_wait * 600)
